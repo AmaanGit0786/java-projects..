@@ -1,13 +1,14 @@
 package frequent_askedprogram.java;
-
 import java.util.Scanner;
 
-public class MirrorRightAngleTriangle {
+public class mirroredArrowShaped {
+
     public static void main(String[] args) {
+
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the value");
         int n=sc.nextInt();
-        System.out.println("the given right angle mirror pattern pattern are as follows :" );
+        System.out.println("the given ARROW pattern are as follows :" );
 
         for (int i=1;i<=n;i++) {
 
@@ -39,4 +40,7 @@ public class MirrorRightAngleTriangle {
             System.out.println();
 
         }
-}}
+
+
+    }
+}
