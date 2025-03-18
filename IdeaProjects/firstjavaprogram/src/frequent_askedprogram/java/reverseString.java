@@ -5,11 +5,11 @@ public class reverseString {
         // StringBuilder sb=new StringBuilder("Hello all  dear students");
         //  sb.reverse();
         // System.out.println(sb);
-        String[] arr = {"hello", "all ", "dear", "students"};
+        String[] arr = {"the", "sky ", "is", "blue"};
         int n = arr.length;
-        for (int i = 0; i < n; i++) {   //revrese each word of the string
+      /*  for (int i = 0; i < n; i++) {   //revrese each word of the string
             arr[i] = new StringBuilder(arr[i]).reverse().toString();
-        }
+        }*/
         // reverse whole string
             int i = 0;
             int j = n - 1;
@@ -22,7 +22,7 @@ public class reverseString {
 
             }
             for (i = 0; i < arr.length; i++) {
-                System.out.println(arr[i]);
+                System.out.print(arr[i]+" ");
 
             }
         }

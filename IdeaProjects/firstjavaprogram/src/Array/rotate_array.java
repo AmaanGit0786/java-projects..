@@ -8,7 +8,8 @@ public class rotate_array {
         System.out.println();
     }
     public static void reverse(int[] arr,int i,int j) {
-        while (i <= j) {
+
+        while (i < j) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
@@ -18,11 +19,12 @@ public class rotate_array {
     }
 
     public static void main(String[] args) {
-        int arr[] = {1, 2, 3, 4, 5, 6, 7, 8};
+        int arr[] = {1, 2, 3, 4, 5, 6, 7};
+        int k=3;
         int n = arr.length;
-        reverse(arr,0,n-1-3);
-        print(arr);
-        reverse(arr,n-3,n-1);
+        reverse(arr,0,n-k-1);
+       print(arr);
+         reverse(arr,k+1,n-1);
         print(arr);
         reverse(arr,0,n-1);
         print(arr);
